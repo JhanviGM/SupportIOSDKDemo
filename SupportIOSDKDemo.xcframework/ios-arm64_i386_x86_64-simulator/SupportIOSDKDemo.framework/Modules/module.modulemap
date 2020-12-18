@@ -1,0 +1,11 @@
+framework module SupportIOSDKDemo {
+  umbrella header "SupportIOSDKDemo.h"
+
+  export *
+  module * { export * }
+}
+
+module SupportIOSDKDemo.Swift {
+    header "SupportIOSDKDemo-Swift.h"
+    requires objc
+}
